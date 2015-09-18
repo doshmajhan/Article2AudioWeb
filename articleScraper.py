@@ -11,7 +11,6 @@ def articleScraper(url):
 
 
 if __name__ == '__main__':
-    #url = raw_input("URL: ")
-    url = "http://www.nytimes.com/2015/09/17/us/texas-student-is-under-police-investigation-for-building-a-clock.html?ref=us&_r=0"
+    url = raw_input("URL: ")
     articleScraper(url)
 
