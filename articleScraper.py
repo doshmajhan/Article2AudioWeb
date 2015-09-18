@@ -7,10 +7,11 @@ def articleScraper(url):
     a.download()
     a.parse()
     articleString = a.text
-    print "Converting to mp3...."
-    tts = gTTS(text=articleString, lang='en')
-    tts.save("static/article.mp3")
-    print "Finished"
+    print articleString.replace('Advertisement Continue reading the main story', '')
+    #print "Converting to mp3...."
+    #tts = gTTS(text=articleString, lang='en')
+    #tts.save("static/article.mp3")
+    #print "Finished"
 
 
 if __name__ == '__main__':
