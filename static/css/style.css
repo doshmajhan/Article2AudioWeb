@@ -1,10 +1,10 @@
 html body {
-    background-image: url("http://www.freeoboi.ru/download/index.php?mode=resolution&i=105502009.jpg&prefix=1920_1200_&width=1920&height=1200");
-    background-repeat: no-repeat;
+    background-image: no-repeat;
 }
 
 #center {
-    margin-top:230px;
+    margin-top:270px;
+    overflow:auto;
 }
 
 html body form div {
@@ -16,9 +16,38 @@ button {
     margin-top: 100px;
 }
 
-a {
-    margin-left: 640px;
+div.download {
+    margin-left: 600px;
+    margin-right: 500px;
+    padding-top: 11px;
+    padding-bottom: 6px;
+    background-color: #99FF99;
+    border-style: ridge solid #99FF99;
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    overflow:auto;
+
 }
+
+div.download a{
+    margin-top: 400px;
+    font-size: 20px;
+    font-family: "Sans-Serif", Serif, Arial;
+}
+
+div.download a:hover {
+    text-decoration: none;
+    font-size: 165%;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
