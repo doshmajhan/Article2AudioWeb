@@ -10,6 +10,7 @@ html body {
 html body form div {
     margin-left: 270px;
     margin-right: 30px;
+
 }
 
 button {
@@ -21,9 +22,11 @@ div.download {
     margin-right: 500px;
     padding-top: 11px;
     padding-bottom: 6px;
-    background-color: #99FF99;
-    border-style: ridge solid #99FF99;
-    border-radius: 7px;
+    background-color: #13C528;
+    border-style: solid ;
+    border-color: #6CE86C;
+    border-width: 2.7px;
+    border-radius: 0px;
     width: 200px;
     height: 50px;
     text-align: center;
@@ -32,22 +35,44 @@ div.download {
 }
 
 div.download a{
-    margin-top: 400px;
+    //margin-top: 400px;
     font-size: 20px;
     font-family: "Sans-Serif", Serif, Arial;
+    padding: auto;
+    text-decoration: none;
+    color: white;
+
+
 }
 
 div.download a:hover {
-    text-decoration: none;
-    font-size: 165%;
-    color: white;
-}
-
-a:link{
-    text-decoration: none;
-    color: white;
+    font-size: 130%;
 }
 
 
+div.download a:link, div.download a:visited,div.download a:active{
+    color: white;
+}
+
+div.form-group {
+    background-color: #A3A3C2;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+div.form-group p {
+    font-family: Sans-Serif,Verdana;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+}
+
+button.btn.btn-default {
+    background-color: #13c528;
+    border-color: #13c528;
+    color: white;
+}
 
 
