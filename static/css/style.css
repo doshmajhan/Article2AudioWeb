@@ -1,0 +1,78 @@
+html body {
+    background-image: no-repeat;
+}
+
+#center {
+    margin-top:270px;
+    overflow:auto;
+}
+
+html body form div {
+    margin-left: 270px;
+    margin-right: 30px;
+
+}
+
+button {
+    margin-top: 100px;
+}
+
+div.download {
+    margin-left: 600px;
+    margin-right: 500px;
+    padding-top: 11px;
+    padding-bottom: 6px;
+    background-color: #13C528;
+    border-style: solid ;
+    border-color: #6CE86C;
+    border-width: 2.7px;
+    border-radius: 0px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    overflow:auto;
+
+}
+
+div.download a{
+    //margin-top: 400px;
+    font-size: 20px;
+    font-family: "Sans-Serif", Serif, Arial;
+    padding: auto;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+div.download a:hover {
+    font-size: 130%;
+}
+
+
+div.download a:link, div.download a:visited,div.download a:active{
+    color: white;
+}
+
+div.form-group {
+    background-color: #A3A3C2;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+div.form-group p {
+    font-family: Sans-Serif,Verdana;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+}
+
+button.btn.btn-default {
+    background-color: #13c528;
+    border-color: #13c528;
+    color: white;
+}
+
+

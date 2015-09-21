@@ -1,1 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+<<<<<<< HEAD
+=======
+*.idea
+*.iml
+*.xml
+>>>>>>> 4a91d98dce768388863df7b8cac3b944e1309e06
