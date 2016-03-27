@@ -9,7 +9,6 @@ app.debug = True
 @app.route('/', methods = ['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        print 'hi'
         url = request.form['searchbar']
         articleScraper.articleScraper(url)
         return render_template('index.html')
